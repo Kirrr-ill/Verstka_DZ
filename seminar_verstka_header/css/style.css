@@ -13,12 +13,13 @@ body{
 }
 a:hover{
 	color: #F25822;
+	opacity: 0.7;
 }
 a:active{
 opacity: 0.5;
 }
 .center{
-	max-width: 1170px;
+	max-width: 1110px;
 	margin: 0 auto;
 }
 .header-wrap{
@@ -108,4 +109,144 @@ opacity: 0.5;
 	list-style-type: none;
 	justify-content: space-between;
 	flex-wrap: wrap;
+}
+                                                    
+									/* ============================   урок 5 домашняя работа   =============================== */
+.features-wrp{
+	padding: 100px 0 100px;
+}
+.features-cards{
+	position: relative;
+}
+.features-cards-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+.features-cards-items {
+	display: flex;
+	justify-content: left;
+	align-items: self-start;
+	flex-wrap: wrap;
+	gap: 30px;
+	max-width: 310px;
+	padding: 20px;
+}
+.features-cards-items:hover {
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+.features-pict {
+	width: 70px;
+	height: 70px;
+	border-radius: 15px;
+	background-color: rgba(242, 88, 34, 0.25);
+	background-image: url(../img/Vector.svg);
+	background-position: center;;
+	background-repeat: no-repeat;
+}
+.features-cards-subtitle {
+	min-width: 300px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+}
+.features-cards-txt {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	color: #666666;
+}
+.features-cards-link {
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 150%;
+	color: #000000;
+	text-decoration: none;
+}
+.features-bgr-pic-2{
+	background-color: rgba(20, 146, 17, 0.28);
+	background-image: url(../img/flash.svg);
+}
+.features-bgr-pic-3{
+	background-color:	rgba(255, 205, 29, 0.24);
+	background-image: url(../img/pricetags.svg);
+}
+.services-wrp {
+	background-color: #fafafa;
+	padding: 92px 0 100px;
+}
+.services-cards-item-header {
+	text-align: center;
+	max-width: 662px;
+	margin: 0 auto 55px;
+}
+.services-cards-header-title{
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 53px;
+	color: #000000;
+	margin: 0 0 19px;
+}
+.services-cards-item-header-txt{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+}.services-cards-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+	list-style: none;
+}
+.services-cards-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+	text-align: center;
+	background-color: #ffffff;
+}
+.services-cards-item:hover{
+	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+.services-cards-item-self{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.services-cards-subtitle {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+	margin: 0px auto 24px;
+}
+.services-cards-txt {
+	padding: 0 30px 0;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	color: #AAAAAA;
+}
+.services-cards-pict {
+	width: 370px;
+	height: 250px;
+	background-image: url(../img/why-1.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	margin: 0 auto 25px;
+}
+.services-cards-pict-bgr-2{
+	background-image: url(../img/why-2.png);
+}
+.services-cards-pict-bgr-3{
+	background-image: url(../img/why-3.png);
+}
+.services-cards-btn {
+	padding: 0;
+	margin: 39px auto 50px;
 }
